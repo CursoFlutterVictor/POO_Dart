@@ -27,14 +27,26 @@ abstract class Fly {
   }
 }
 
-class Dolphin extends Animal with Swim {}
+class Dolphin extends Mammal with Swim {}
 
-class Bat extends Animal with Walk, Fly {}
+class Bat extends Mammal with Walk, Fly {}
+
+class Cat extends Mammal with Walk {}
+
+class Dove extends Bird with Walk, Fly {}
+
+class Duck extends Bird with Walk, Swim, Fly {}
+
+class Shark extends Fish with Swim {}
+
+class FlyingFish extends Fish with Swim, Fly {}
 
 void main() {
+  print("Dolphin:");
   Dolphin d = new Dolphin();
   d.swim();
 
+  print("Bat:");
   Bat b = new Bat();
   b.fly();
   b.walk();

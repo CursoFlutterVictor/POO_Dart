@@ -18,8 +18,8 @@ Ejercicio:
     con dos examenes. 
 
   - La clase asignatura consta de 1 tipo que sera el nombre de 
-    la asignatura, resultado del primer examen, como numero decimal y resultado del
-    segundo examen como numero decimal.
+    la asignatura, resultado del primer examen, como numero decimal y resultado
+    del segundo examen como numero decimal.
 
   - Si la media de los dos examenes es menor a 5 el constructor adecuado sera el
     constructor "suspenso" y si el resultado es >= 5 "aprobado".

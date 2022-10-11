@@ -8,8 +8,9 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program":"01_clases/05_factory.dart"
+            //"program":"01_clases/06_static.dart"
             //"program":"01_clases/xx_ejercicios.dart"
+            "program":"02_herencia_clases/xx_ejercicios.dart"
         }
     ]
 }

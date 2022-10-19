@@ -9,19 +9,19 @@ abstract class Bird extends Animal {}
 
 abstract class Fish extends Animal {}
 
-abstract class Walk {
+mixin Walk {
   void walk() {
     print("Walking...");
   }
 }
 
-abstract class Swim {
+mixin Swim {
   void swim() {
     print("Swimming...");
   }
 }
 
-abstract class Fly {
+mixin Fly {
   void fly() {
     print("Flying...");
   }
